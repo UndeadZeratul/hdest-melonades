@@ -3,6 +3,11 @@ AddOptionMenu "OptionsMenu"
 	Submenu "Melonades", "MelonadesMenu"
 }
 
+AddOptionMenu "HDAddonMenu"
+{
+	Submenu "Melonades", "MelonadesMenu"
+}
+
 OptionMenu "MelonadesMenu"
 {
 	Title "Melonades Options"
