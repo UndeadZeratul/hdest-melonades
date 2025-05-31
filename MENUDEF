@@ -23,25 +23,25 @@ OptionMenu "MelonadesMenu"
 
 	StaticText "$MENU_SPAWNOPTIONS", "Brown"
 	StaticText "$MENU_IMPACT_SPAWNTEXT", "White"
-	Slider "$MENU_WEPSPAWNRATE", "melo_impact_spawn_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "melo_impact_spawn_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar melo_impact_rocketbox_spawn_bias"
 	StaticText ""
 	
 	StaticText "$MENU_MG13_SPAWNTEXT", "White"
-	Slider "$MENU_WEPSPAWNRATE", "melo_mg13_spawn_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "melo_mg13_spawn_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar melo_mg13_chainsaw_spawn_bias"
 	StaticText ""
 	
 	StaticText "$MENU_STONE_SPAWNTEXT", "White"
-	Slider "$MENU_WEPSPAWNRATE", "melo_stone_spawn_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "melo_stone_spawn_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar melo_stone_chainsaw_spawn_bias"
 	StaticText ""
 	
 	StaticText "$MENU_THUNDER_CELLPACK_SPAWNTEXT", "White"
-	Slider "$MENU_WEPSPAWNRATE", "melo_thunder_cellpack_spawn_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "melo_thunder_cellpack_spawn_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar melo_thunder_cellpack_spawn_bias"
 	StaticText "$MENU_THUNDER_ROCKETBOX_SPAWNTEXT", "White"
-	Slider "$MENU_WEPSPAWNRATE", "melo_thunder_rocketbox_spawn_bias",  0.0, 1000, .01, 3
+	Slider "$MENU_WEPSPAWNRATE", "melo_thunder_rocketbox_spawn_bias", 0.0, 100, .01, 2
 	SafeCommand "$MENU_RESETWEP", "resetcvar melo_thunder_cellpack_spawn_bias"
 	
 	StaticText ""
