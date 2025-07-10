@@ -1,5 +1,5 @@
 // Impact Grenade Spawn Entries
-addSpawnTableSingleEntry => { "tableName": "RocketBoxReplacers", "name": "HDImpactGrenadePickup", "weight": "#melo_impact_rocketbox_spawn_bias", "persists": "#melo_impact_persistant_spawning" }
+addSpawnTableSingleEntry => { "tableName": "RocketBoxReplaces", "name": "HDImpactGrenadePickup", "weight": "#melo_impact_rocketbox_spawn_bias", "persists": "#melo_impact_persistant_spawning" }
 
 // MG-13 Grenade Spawn Entries
 addSpawnTableSingleEntry => { "tableName": "ChainsawReplaces", "name": "MG13GrenadeP", "weight": "#melo_mg13_chainsaw_spawn_bias", "persists": "#melo_mg13_persistant_spawning" }
@@ -9,4 +9,4 @@ addSpawnTableSingleEntry => { "tableName": "ChainsawReplaces", "name": "StonePil
 
 // Thunder Grenade Spawn Entries
 addSpawnTableSingleEntry => { "tableName": "CellPackReplaces", "name": "HDThunderGrenadePickup", "weight": "#melo_thunder_cellpack_spawn_bias", "persists": "#melo_thunder_persistant_spawning" }
-addSpawnTableSingleEntry => { "tableName": "RocketBoxRandom", "name": "HDThunderGrenadePickup", "weight": "#melo_thunder_rocketbox_spawn_bias", "persists": "#melo_thunder_persistant_spawning" }
+addSpawnTableSingleEntry => { "tableName": "RocketBoxReplaces", "name": "HDThunderGrenadePickup", "weight": "#melo_thunder_rocketbox_spawn_bias", "persists": "#melo_thunder_persistant_spawning" }
