@@ -10,3 +10,8 @@ addSpawnTableSingleEntry => { "tableName": "ChainsawReplaces", "name": "StonePil
 // Thunder Grenade Spawn Entries
 addSpawnTableSingleEntry => { "tableName": "CellPackReplaces", "name": "HDThunderGrenadePickup", "weight": "#melo_thunder_cellpack_spawn_bias", "persists": "#melo_thunder_persistant_spawning" }
 addSpawnTableSingleEntry => { "tableName": "RocketBoxReplaces", "name": "HDThunderGrenadePickup", "weight": "#melo_thunder_rocketbox_spawn_bias", "persists": "#melo_thunder_persistant_spawning" }
+
+// Merchant Store Entries
+newMerchantStoreItem => { "enabled": "#hdm_enable_impactgrenade", "type": "ammo", "category": "$MERCH_CAT_IMPACTGRENADE", "item": "HDImpactGrenadeAmmo", "icon": "IMPGA0", "displayName": "$MERCH_TAG_IMPACTGRENADE", "basePrice": "30", "flavorText": "$MERCH_FLAVOR_IMPACTGRENADE" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_thundergrenade", "type": "ammo", "category": "$MERCH_CAT_THUNDERGRENADE", "item": "HDThunderGrenadeAmmo", "icon": "TFRGA0", "displayName": "$MERCH_TAG_THUNDERGRENADE", "basePrice": "40", "flavorText": "$MERCH_FLAVOR_THUNDERGRENADE" }
+newMerchantStoreItem => { "enabled": "#hdm_enable_mg13grenade", "type": "ammo", "category": "$MERCH_CAT_MG13GRENADE", "item": "HDMG13GrenadeAmmo", "storeAmount": "@Multiply", "storeAmount.valueA": "@Random", "storeAmount.valueA.min": "1", "storeAmount.valueA.max": "2", "storeAmount.valueB": "#hdm_stock_ammo", "icon": "MG13A0", "displayName": "$MERCH_TAG_MG13GRENADE", "basePrice": "70", "flavorText": "$MERCH_FLAVOR_MG13GRENADE" }
