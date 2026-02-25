@@ -1,0 +1,16 @@
+[enu default]
+
+// Impact Grenade
+MERCH_CAT_IMPACTGRENADE           = "Melonades";
+MERCH_TAG_IMPACTGRENADE           = "Impact Grenade";
+MERCH_FLAVOR_IMPACTGRENADE        = "whatever you do, don't drop this.";
+
+// MG13 Grenade
+MERCH_CAT_MG13GRENADE             = "Melonades";
+MERCH_TAG_MG13GRENADE             = "MG13 Grenade";
+MERCH_FLAVOR_MG13GRENADE          = "Dome of death.";
+
+// Thunder Grenade
+MERCH_CAT_THUNDERGRENADE          = "Melonades";
+MERCH_TAG_THUNDERGRENADE          = "Thunder Grenade";
+MERCH_FLAVOR_THUNDERGRENADE       = "Shockingly fun to use.";
