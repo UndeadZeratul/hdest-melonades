@@ -1,5 +1,25 @@
 [enu default]
 
+// Menu Section Headers
+MENU_SPAWNOPTIONS                 = "Spawn Options";
+
+// Menu Static Text
+MENU_PERSISTENCY_TEXT             = "Control whether replacements happen after a mapload:";
+MENU_PERSISTENCYOPTIONS           = "Spawn Persistence Options";
+
+// Menu Option Labels
+MENU_PERSISTENCY                  = "Persistent Spawns: ";
+MENU_RESETPERSISTENCY             = "Reset Persitency: ";
+MENU_RESETWEP                     = "Reset Weapon Options: ";
+MENU_WEPSPAWNRATE                 = "Weapon Spawn Rate: ";
+
+// Menu Options Text
+MENU_STONE_SPAWNTEXT              = "Control the spawn rate of Stones on Chainsaws:";
+MENU_IMPACT_SPAWNTEXT             = "Control the spawn rate of Impact Grenades on Rocket Boxes:";
+MENU_MG13_SPAWNTEXT               = "Control the spawn rate of MG13 Grenades on Chainsaws:";
+MENU_THUNDER_CELLPACK_SPAWNTEXT   = "Control the spawn rate of Thunder Grenades on Cell Packs:";
+MENU_THUNDER_ROCKETBOX_SPAWNTEXT  = "Control the spawn rate of Thunder Grenades on Rocket Boxes:";
+
 // Impact Grenade
 MERCH_CAT_IMPACTGRENADE           = "Melonades";
 MERCH_TAG_IMPACTGRENADE           = "Impact Grenade";
